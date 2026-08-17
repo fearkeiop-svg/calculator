@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "CalcNova — All-in-One Calculator"
+description = "A privacy-friendly, mobile-first calculator platform with fast client-side tools for finance, health, shopping, dates, math, conversions, favorites, and local calculation history."
+version = "1.0.0"
+id = "artifacts/calcnova"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23891
+
+[services.development]
+run = "pnpm --filter @workspace/calcnova run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/calcnova", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/calcnova/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23891"
+BASE_PATH = "/"

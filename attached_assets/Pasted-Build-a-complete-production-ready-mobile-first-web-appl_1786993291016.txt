@@ -1,0 +1,729 @@
+Build a complete, production-ready, mobile-first web application called CalcNova — All-in-One Calculator.
+
+IMPORTANT:
+
+- Build the entire website in one project.
+- The website must be fully functional, not a static UI mockup.
+- Do NOT use any AI API.
+- Do NOT use any paid API.
+- Do NOT require a database.
+- Do NOT require login/signup.
+- All calculations must run locally in the browser using JavaScript.
+- The website must work even without an internet connection after loading.
+- Use clean HTML, CSS and JavaScript or the framework supported by this platform.
+- Make the code exportable/deployable to Vercel.
+- Do not leave placeholder buttons or unfinished features.
+- Every calculator must actually calculate correct results.
+
+1. BRAND
+
+Website name:
+CalcNova
+
+Tagline:
+“Every calculation you need, in one place.”
+
+Create a modern, trustworthy calculator platform designed primarily for mobile users.
+
+Use a premium Gen-Z inspired interface:
+
+- Dark/light mode
+- Smooth gradients
+- Glassmorphism cards
+- Rounded corners
+- Subtle shadows
+- Smooth hover/tap animations
+- Clean typography
+- Excellent spacing
+- Professional icons
+- Fast loading
+- No unnecessary animation that slows the site
+
+The website must feel like a real SaaS/product website, not a basic school calculator.
+
+2. HOME PAGE
+
+Create a beautiful homepage.
+
+Top navigation:
+
+- CalcNova logo
+- Home
+- Calculators
+- About
+- Theme toggle
+- Search icon/button
+
+Hero section:
+
+Headline:
+“All Your Calculations. One Simple Place.”
+
+Subtitle:
+“Fast, accurate and free calculators for money, health, shopping, dates, math and everyday life.”
+
+Add a prominent calculator search box:
+
+Placeholder:
+“Search a calculator...”
+
+Add popular calculator cards.
+
+Popular calculators:
+
+1. Basic Calculator
+2. Percentage Calculator
+3. EMI Calculator
+4. SIP Calculator
+5. GST Calculator
+6. Discount Calculator
+7. Age Calculator
+8. BMI Calculator
+
+Each card must be clickable and open the correct calculator.
+
+3. CALCULATOR DIRECTORY
+
+Create a dedicated “All Calculators” section/page.
+
+Add categories:
+
+Math
+
+- Basic Calculator
+- Percentage Calculator
+- Fraction Calculator
+- Average Calculator
+- Ratio Calculator
+- Scientific Calculator
+
+Finance
+
+- EMI Calculator
+- Loan Calculator
+- SIP Calculator
+- Simple Interest Calculator
+- Compound Interest Calculator
+- GST Calculator
+- Salary Calculator
+
+Shopping
+
+- Discount Calculator
+- GST + Discount Calculator
+- Tip Calculator
+
+Health
+
+- BMI Calculator
+- BMR Calculator
+- Calorie Calculator
+
+Date & Time
+
+- Age Calculator
+- Date Difference Calculator
+- Days Between Dates
+- Time Duration Calculator
+
+Conversion
+
+- Length Converter
+- Weight Converter
+- Temperature Converter
+- Area Converter
+- Volume Converter
+- Speed Converter
+- Data Storage Converter
+
+Every calculator should have its own card and working page/component.
+
+4. BASIC CALCULATOR
+
+Create a full calculator interface similar to a modern smartphone calculator.
+
+Buttons:
+0–9
++
+
+×
+÷
+%
+.
+AC
+DEL
+
+()
+
+Support:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Percentage
+- Decimal numbers
+- Negative numbers
+- Parentheses
+- Keyboard input
+
+Show:
+
+- Current expression
+- Result
+
+Prevent invalid calculations and division by zero.
+
+5. PERCENTAGE CALCULATOR
+
+Create three useful modes:
+
+Mode 1
+
+“What is X% of Y?”
+
+Mode 2
+
+“X is what percentage of Y?”
+
+Mode 3
+
+“Percentage increase/decrease from X to Y”
+
+Show:
+
+- Exact result
+- Formula
+- Calculation breakdown
+
+Example:
+20% of 500 = 100
+
+6. EMI CALCULATOR
+
+Inputs:
+
+- Loan amount
+- Interest rate (% annually)
+- Loan tenure
+- Tenure unit: Months / Years
+
+Calculate:
+
+- Monthly EMI
+- Total interest
+- Total payment
+
+Show a visual breakdown.
+
+Use the standard reducing-balance EMI formula.
+
+Add a small explanation of how EMI is calculated.
+
+7. SIP CALCULATOR
+
+Inputs:
+
+- Monthly investment
+- Expected annual return (%)
+- Investment period in years
+
+Calculate:
+
+- Total invested
+- Estimated returns
+- Final value
+
+Show a simple visual chart.
+
+Clearly label the result as an estimate, not a guaranteed return.
+
+8. GST CALCULATOR
+
+Provide two modes:
+
+Add GST
+
+Input:
+
+- Original amount
+- GST percentage
+
+Output:
+
+- GST amount
+- Final amount
+
+Remove GST
+
+Input:
+
+- GST-inclusive amount
+- GST percentage
+
+Output:
+
+- Original amount
+- GST component
+
+Support common GST rates:
+5%
+12%
+18%
+28%
+
+Also allow custom GST rate.
+
+9. DISCOUNT CALCULATOR
+
+Inputs:
+
+- Original price
+- Discount percentage
+
+Output:
+
+- Discount amount
+- Final price
+- Amount saved
+
+Add optional GST calculation.
+
+10. AGE CALCULATOR
+
+Inputs:
+
+- Date of birth
+- Calculate age as of today
+
+Output:
+
+- Years
+- Months
+- Days
+
+Also show:
+
+- Total days lived
+- Next birthday
+- Days until next birthday
+
+Use the user's local date.
+
+11. BMI CALCULATOR
+
+Inputs:
+
+- Height
+- Weight
+- Height unit: cm / ft + inches
+- Weight unit: kg / lb
+
+Calculate BMI.
+
+Show categories:
+
+- Underweight
+- Normal
+- Overweight
+- Obesity
+
+Include a simple disclaimer:
+“BMI is a general screening measure and is not medical advice.”
+
+12. BMR CALCULATOR
+
+Inputs:
+
+- Age
+- Sex
+- Height
+- Weight
+
+Calculate BMR using a recognized formula.
+
+Show estimated daily calorie needs based on activity level:
+
+- Sedentary
+- Lightly active
+- Moderately active
+- Very active
+- Extremely active
+
+Add a disclaimer that these are estimates.
+
+13. SIMPLE INTEREST CALCULATOR
+
+Inputs:
+
+- Principal
+- Interest rate
+- Time
+
+Output:
+
+- Interest
+- Total amount
+
+Formula:
+SI = P × R × T / 100
+
+14. COMPOUND INTEREST CALCULATOR
+
+Inputs:
+
+- Principal
+- Annual interest rate
+- Time
+- Compounding frequency
+
+Options:
+
+- Yearly
+- Half-yearly
+- Quarterly
+- Monthly
+
+Output:
+
+- Principal
+- Interest earned
+- Final amount
+
+15. TIP CALCULATOR
+
+Inputs:
+
+- Bill amount
+- Tip percentage
+- Number of people
+
+Output:
+
+- Tip amount
+- Total bill
+- Amount per person
+
+Quick tip buttons:
+10%
+15%
+18%
+20%
+
+16. SALARY CALCULATOR
+
+Create a simple salary breakdown calculator.
+
+Inputs:
+
+- Annual salary
+- Monthly salary option
+- Optional deductions
+
+Output:
+
+- Gross monthly salary
+- Estimated deductions
+- Net monthly amount
+- Annual amount
+
+Clearly label tax/deduction calculations as estimates and avoid claiming to calculate exact tax liability.
+
+17. DATE DIFFERENCE CALCULATOR
+
+Inputs:
+
+- Start date
+- End date
+
+Output:
+
+- Years
+- Months
+- Days
+- Total days
+- Total weeks
+
+Correctly handle leap years.
+
+18. UNIT CONVERTER
+
+Create a universal unit converter.
+
+Categories:
+
+- Length
+- Weight
+- Temperature
+- Area
+- Volume
+- Speed
+- Time
+- Digital storage
+
+Allow:
+From unit → To unit → Value
+
+Update the result instantly.
+
+19. CURRENCY CALCULATOR
+
+IMPORTANT:
+Do NOT use a currency API.
+
+Instead create a simple manual currency conversion calculator with editable exchange rates.
+
+Include popular currencies:
+INR
+USD
+EUR
+GBP
+AED
+CAD
+AUD
+JPY
+
+Display:
+“Exchange rates are manually configurable and may not reflect live market rates.”
+
+Allow the user to change the exchange rate.
+
+20. CALCULATION HISTORY
+
+Add local calculation history.
+
+Requirements:
+
+- Store recent calculations using localStorage.
+- Show calculation expression and result.
+- Clear history button.
+- Do not send history anywhere.
+- History should remain private in the user's browser.
+
+21. FAVORITES
+
+Allow users to favorite calculators.
+
+Use localStorage.
+
+Add:
+
+- Favorite/unfavorite button
+- Favorites section on homepage
+
+No account required.
+
+22. SEARCH
+
+Create instant calculator search.
+
+When the user types:
+“emi”
+show EMI Calculator.
+
+“age”
+show Age Calculator.
+
+“gst”
+show GST Calculator.
+
+“discount”
+show Discount Calculator.
+
+Search should work on mobile and desktop.
+
+23. THEME
+
+Implement:
+
+- Dark mode
+- Light mode
+
+Save the selected theme using localStorage.
+
+Default to the user's system preference when no preference has been saved.
+
+24. RESPONSIVE DESIGN
+
+The website must be mobile-first.
+
+Optimize for:
+
+- Android phones
+- iPhones
+- Tablets
+- Desktop
+- Large monitors
+
+Important:
+
+- Calculator buttons must be easy to tap.
+- No horizontal scrolling.
+- Inputs must be large enough for mobile.
+- Sticky bottom navigation can be used on mobile.
+
+25. SEO
+
+Add:
+
+- Proper page titles
+- Meta descriptions
+- Semantic HTML
+- Open Graph metadata
+- Descriptive headings
+- Search-friendly calculator names
+
+Homepage title:
+CalcNova — Free Online Calculators
+
+Meta description:
+Free online calculators for EMI, SIP, GST, percentage, age, BMI, discounts, loans, conversions and everyday calculations.
+
+Create clean routes/URLs where supported, for example:
+
+- /calculator
+- /calculator/percentage
+- /calculator/emi
+- /calculator/sip
+- /calculator/gst
+- /calculator/age
+- /calculator/bmi
+- /calculator/discount
+
+26. ACCESSIBILITY
+
+Support:
+
+- Keyboard navigation
+- Visible focus states
+- Proper labels
+- Accessible buttons
+- Good color contrast
+- ARIA labels where appropriate
+
+27. ERROR HANDLING
+
+Never show broken or NaN results.
+
+Validate:
+
+- Empty fields
+- Negative values where invalid
+- Division by zero
+- Invalid dates
+- End date before start date
+- Invalid unit conversions
+
+Show friendly error messages.
+
+28. PERFORMANCE
+
+Keep the website lightweight.
+
+Do NOT include:
+
+- Heavy unnecessary libraries
+- AI services
+- Tracking scripts
+- Unnecessary external APIs
+- Backend servers
+- Database
+
+All calculations should happen client-side.
+
+29. MONETIZATION-READY DESIGN
+
+Do NOT add fake advertisements.
+
+Instead create clean reserved areas where advertisements could later be placed:
+
+- Homepage ad slot
+- Calculator page ad slot
+- Between calculator sections
+
+Label them internally as:
+“Advertisement”
+
+Do not make these areas annoying or interfere with calculations.
+
+Also create a small footer section:
+“CalcNova is free to use.”
+
+30. FOOTER
+
+Footer links:
+
+- Home
+- All Calculators
+- About
+- Privacy
+- Terms
+- Contact
+
+Add:
+© 2026 CalcNova. All rights reserved.
+
+31. ABOUT SECTION
+
+Explain:
+
+“CalcNova is a free collection of fast, simple and privacy-friendly online calculators. Calculations are performed directly in your browser, so your calculator inputs are not sent to our servers.”
+
+32. PRIVACY
+
+Create a simple privacy page explaining:
+
+- No account required
+- Calculations happen locally
+- Calculation history uses localStorage
+- No calculator data is sent to a server
+- Any future advertising/analytics should be disclosed
+
+33. IMPORTANT FUNCTIONAL REQUIREMENT
+
+Before finishing, test every calculator.
+
+Verify:
+
+- Basic arithmetic
+- Percentage
+- EMI
+- SIP
+- GST
+- Discount
+- Age
+- BMI
+- BMR
+- Interest
+- Compound interest
+- Tip
+- Date difference
+- Unit conversion
+- Manual currency conversion
+
+Every button must work.
+
+Do not return a partially completed website.
+
+34. FINAL UI
+
+Make the homepage visually impressive.
+
+Hero → Search → Popular calculators → Categories → Why CalcNova → Favorites/Recent → Advertisement placeholder → Footer.
+
+Use polished micro-interactions:
+
+- Button press animation
+- Card hover
+- Smooth page transitions
+- Copy result button
+- Reset button
+
+Add “Copy Result” to every calculator.
+
+Add “Reset” to every calculator.
+
+Make the overall product look like a real commercial calculator platform that could eventually receive search traffic and advertising revenue.
+
+FINAL REQUIREMENT:
+Generate the complete working website now. Do not merely describe how to build it. Implement the full UI, calculator logic, navigation, responsive styling, localStorage features and all required functionality.
